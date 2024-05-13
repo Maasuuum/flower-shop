@@ -1,0 +1,10 @@
+/* universal design */
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: none;
+}
