@@ -7,4 +7,123 @@
     font-size: 20px;
     font-weight: 500;
     border-style: none;
+    cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: rgba(126, 8, 65, 0.823);
+}
+
+/* header section */
+.header-content{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 240px 0px auto;
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+.header-title{
+    width: 650px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.header-description{
+    width: 580px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* .left-header-content{
+    margin: 20px auto 10px 200px;
+} */
+.header-photo img{
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 30px;
+    /* margin: 20px 250px 0px 50px; */
+}
+
+/* main section */
+.first-section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+.first-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.first-section-photos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.first-section-photos img{
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    
+}
+.first-section-photos p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.photo-one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.photo-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.photo-three{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.first-section-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(71, 17, 125, 0.15);
+    /* margin-bottom: 100px; */
+    margin: 100px 150px;
+    padding: 20px;
+    
+}
+.icon-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-section-icons img{
+    width: 88px;
+    height: 88px;
+    margin-top: 50px;
+}
+.first-section-icons p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
