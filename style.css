@@ -198,14 +198,13 @@
 /* comment section */
 .comment-section{
     background-image: url("Asset/Rectangle\ 9.png");
-    width: 1440px;
+    width: 1000px;
     height: 449px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto 100px;
-    margin-bottom: 100px;
+    margin: auto 30px;
     padding: 100px 240px;
     border-radius: 10px;
 
@@ -215,13 +214,15 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .comment-section p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 30px;
 
 }
 .email-container{
@@ -229,10 +230,43 @@
     align-items: center;
     gap: 10px;
 }
-.email{
-    
+.email{  
     width: 700px;
-    height: 64px;
+    height: 54px;
     border-radius: 8px;
     background: #FFF;
+    margin-left: 50px;
 }
+
+/* footer section */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #111010;
+    padding: 100px;
+}
+.footer-container h4{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-description{
+    /* width: 625px; */
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.flower-clr{
+    color: #E55473;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
